@@ -3,4 +3,4 @@
 	url = https://github.com/tiann/KernelSU
 [submodule "kali-nethunter-kernel"]
 	path = kali-nethunter-kernel
-	url = https://gitlab.com/kalilinux/nethunter/build-scripts/kali-nethunter-kernel.git
+	url = https://github.com/Regloom/kali-nethunter-kernel.git
