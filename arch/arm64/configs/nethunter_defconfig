@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/arm64 4.14.340-openela Kernel Configuration
+# Linux/arm64 4.14.355-openela Kernel Configuration
 #
 CONFIG_ARM64=y
 CONFIG_64BIT=y
@@ -1382,7 +1382,7 @@ CONFIG_BLK_DEV=y
 # CONFIG_BLK_DEV_NULL_BLK is not set
 # CONFIG_BLK_DEV_PCIESSD_MTIP32XX is not set
 CONFIG_ZRAM=y
-CONFIG_ZRAM_WRITEBACK=y
+# CONFIG_ZRAM_WRITEBACK is not set
 # CONFIG_BLK_DEV_DAC960 is not set
 # CONFIG_BLK_DEV_UMEM is not set
 # CONFIG_BLK_DEV_COW_COMMON is not set
@@ -5339,7 +5339,7 @@ CONFIG_MISC_FILESYSTEMS=y
 # CONFIG_AFFS_FS is not set
 CONFIG_ECRYPT_FS=y
 CONFIG_ECRYPT_FS_MESSAGING=y
-# CONFIG_SDCARD_FS is not set
+CONFIG_SDCARD_FS=y
 # CONFIG_HFS_FS is not set
 # CONFIG_HFSPLUS_FS is not set
 # CONFIG_BEFS_FS is not set
@@ -5424,8 +5424,7 @@ CONFIG_NLS_ISO8859_1=y
 # CONFIG_NLS_MAC_TURKISH is not set
 # CONFIG_NLS_UTF8 is not set
 # CONFIG_DLM is not set
-CONFIG_UNICODE=y
-# CONFIG_UNICODE_NORMALIZATION_SELFTEST is not set
+# CONFIG_UNICODE is not set
 # CONFIG_FILE_TABLE_DEBUG is not set
 # CONFIG_VIRTUALIZATION is not set
 
