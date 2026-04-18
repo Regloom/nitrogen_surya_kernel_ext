@@ -3,4 +3,4 @@
 	url = https://github.com/Regloom/kali-nethunter-kernel.git
 [submodule "KernelSU-Next"]
 	path = KernelSU-Next
-	url = https://github.com/rifsxd/KernelSU-Next
+	url = https://github.com/Regloom/KernelSU-Next.git
